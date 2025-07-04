@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SI Dashboard - El Kanaouet</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="SI_ElKanaouet.css">
+</head>
+<body>
+  <div class="dashboard-master-container">
+    <!-- Header Section -->
+    <div class="dashboard-header">
+      <div class="dashboard-title-container">
+        <h1 class="dashboard-title">Tableau de Bord SI</h1>
+        <p class="dashboard-subtitle">El Kanaouet - Systèmes d'Information</p>
+      </div>
+      <img src="img/LogoElKanaouet.png" alt="El Kanaouet Logo" class="company-logo">
+    </div>
+    
+    <!-- Main Content Area -->
+    <div class="dashboard-content">
+      <!-- Production Site Section -->
+      <h2 class="section-title">Site Production</h2>
+      <div class="dashboard-grid" id="production-grid">
+        <a class="dashboard-card" href="https://google.com" target="_blank" data-backup-card="qualipro-backup">
+          <div class="card-icon"><i class="fas fa-medal"></i></div>
+          <p class="card-text">QualiPro</p>
+          <span class="card-badge">QUALITY 9001</span>
+          <span class="status-indicator"></span>
+        </a>
+        
+        <a class="dashboard-card" href="https://agirh.example.com" target="_blank" data-backup-card="agirh-backup">
+          <div class="card-icon"><i class="fas fa-users-cog"></i></div>
+          <p class="card-text">AGIRH</p>
+          <span class="card-badge">RH</span>
+          <span class="status-indicator"></span>
+        </a>
+        
+        <a class="dashboard-card" href="https://google.com" target="_blank" data-backup-card="erp-backup">
+          <div class="card-icon"><i class="fas fa-cubes"></i></div>
+          <p class="card-text">ERP Sage X3</p>
+          <span class="card-badge">X3</span>
+          <span class="status-indicator"></span>
+        </a>
+        
+        <a class="dashboard-card" href="https://pointage.example.com" target="_blank" data-backup-card="pointage-backup">
+          <div class="card-icon"><i class="fas fa-fingerprint"></i></div>
+          <p class="card-text">Pointage</p>
+          <span class="card-badge">ATTENDANCE</span>
+          <span class="status-indicator"></span>
+        </a>
+        
+        <a class="dashboard-card" href="https://glpi.example.com" target="_blank" data-backup-card="glpi-backup">
+          <div class="card-icon"><i class="fas fa-tools"></i></div>
+          <p class="card-text">GLPI</p>
+          <span class="card-badge">Parc info</span>
+          <span class="status-indicator"></span>
+        </a>
+        
+        <a class="dashboard-card" href="https://www.elkanaouet.com" target="_blank" data-backup-card="site-backup">
+          <div class="card-icon"><i class="fas fa-globe"></i></div>
+          <p class="card-text">Site Public</p>
+          <span class="card-badge">El Kanaouet</span>
+          <span class="status-indicator"></span>
+        </a>
+        
+        <a class="dashboard-card" href="https://mail.example.com" target="_blank" data-backup-card="mail-backup">
+          <div class="card-icon"><i class="fas fa-envelope"></i></div>
+          <p class="card-text">Messagerie</p>
+          <span class="card-badge">Mail</span>
+          <span class="status-indicator"></span>
+        </a>
+        
+        <a class="dashboard-card" href="https://smsi.example.com" target="_blank" data-backup-card="smsi-backup">
+          <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+          <p class="card-text">SMSI</p>
+          <span class="card-badge">27001</span>
+          <span class="status-indicator"></span>
+        </a>
+      </div>
+      
+      <!-- Backup Site Section -->
+      <h2 class="section-title">Site Backup</h2>
+      <div class="dashboard-grid" id="backup-grid">
+        <a class="dashboard-card backup-card" href="https://backup.qualipro.example.com" target="_blank" id="qualipro-backup">
+          <div class="card-icon"><i class="fas fa-medal"></i></div>
+          <p class="card-text">QualiPro Backup</p>
+          <span class="card-badge backup-badge">QUALITY 9001</span>
+        </a>
+        
+        <a class="dashboard-card backup-card" href="https://backup.agirh.example.com" target="_blank" id="agirh-backup">
+          <div class="card-icon"><i class="fas fa-users-cog"></i></div>
+          <p class="card-text">AGIRH Backup</p>
+          <span class="card-badge backup-badge">RH</span>
+        </a>
+        
+        <a class="dashboard-card backup-card" href="https://google.com" target="_blank" id="erp-backup">
+          <div class="card-icon"><i class="fas fa-cubes"></i></div>
+          <p class="card-text">ERP Backup</p>
+          <span class="card-badge backup-badge">X3</span>
+        </a>
+        
+        <a class="dashboard-card backup-card" href="https://backup.pointage.example.com" target="_blank" id="pointage-backup">
+          <div class="card-icon"><i class="fas fa-fingerprint"></i></div>
+          <p class="card-text">Pointage Backup</p>
+          <span class="card-badge backup-badge">ATTENDANCE</span>
+        </a>
+        
+        <a class="dashboard-card backup-card" href="https://backup.glpi.example.com" target="_blank" id="glpi-backup">
+          <div class="card-icon"><i class="fas fa-tools"></i></div>
+          <p class="card-text">GLPI Backup</p>
+          <span class="card-badge backup-badge">Parc info</span>
+        </a>
+        
+        <a class="dashboard-card backup-card" href="https://backup.elkanaouet.com" target="_blank" id="site-backup">
+          <div class="card-icon"><i class="fas fa-globe"></i></div>
+          <p class="card-text">Site Backup</p>
+          <span class="card-badge backup-badge">El Kanaouet</span>
+        </a>
+        
+        <a class="dashboard-card backup-card" href="https://backup.mail.example.com" target="_blank" id="mail-backup">
+          <div class="card-icon"><i class="fas fa-envelope"></i></div>
+          <p class="card-text">Mail Backup</p>
+          <span class="card-badge backup-badge">Mail</span>
+        </a>
+        
+        <a class="dashboard-card backup-card" href="https://backup.smsi.example.com" target="_blank" id="smsi-backup">
+          <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+          <p class="card-text">SMSI Backup</p>
+          <span class="card-badge backup-badge">27001</span>
+        </a>
+      </div>
+      
+      <!-- Footer -->
+      <div class="dashboard-footer">
+       <p>© 2025 El Kanaouet - Système d'Information. Tous droits réservés.</p>
+         <p class="dev-credit">
+         <i class="fas fa-code"></i> Développé par Ibrahim Gaha
+      </p>
+      <p class="last-checked">Dernière vérification: <span id="last-checked">en cours...</span></p>
+</div>
+    </div>
+  </div>
+
+
+  
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="SI_ElKanaouet.js">
+   
+  </script>
+</body>
+</html>
