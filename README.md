@@ -1,6 +1,7 @@
 # SI Dashboard - El Kanaouet
 
-![image](https://github.com/user-attachments/assets/03e1dbaa-5fc8-4400-8aaa-e221ce4c89c4) , ![image](https://github.com/user-attachments/assets/e8bd74fd-248a-429b-a718-a691afa73f2c)
+![image](https://github.com/user-attachments/assets/a58ca1a2-0f81-4c6a-822c-bb09d25555c4) , ![image](https://github.com/user-attachments/assets/255f7b35-f647-49e5-99de-cba82f9af3f1)
+
 
 
 A responsive web dashboard for monitoring El Kanaouet's information systems, with automatic failover detection to backup systems.
