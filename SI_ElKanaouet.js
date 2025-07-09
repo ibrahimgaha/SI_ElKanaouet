@@ -49,11 +49,11 @@
             
             if (isAvailable) {
               statusIndicator.classList.add('valid');
-              statusIndicator.textContent = '✓';
+              statusIndicator.textContent = '';
               backupCard.classList.remove('active');
             } else {
               statusIndicator.classList.add('invalid');
-              statusIndicator.textContent = '✕';
+              statusIndicator.textContent = '';
               backupCard.classList.add('active');
             }
           } catch (error) {
