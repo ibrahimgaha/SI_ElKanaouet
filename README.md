@@ -1,7 +1,9 @@
 # SI Dashboard - El Kanaouet
 
+<img width="1303" height="917" alt="image" src="https://github.com/user-attachments/assets/2d74d9a4-8cee-4237-8419-92dc30096788" /> <img width="1577" height="633" alt="image" src="https://github.com/user-attachments/assets/1471e19c-e9f8-4071-8842-2c4e1f7f1b70" />
 
-![hh](https://github.com/user-attachments/assets/51ea0463-9e09-4115-8ec5-a3cf68f8284e)![gg](https://github.com/user-attachments/assets/92a17ee2-432a-46cf-b86b-5de7661a82a0)
+
+
 
 
 
