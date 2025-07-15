@@ -427,6 +427,71 @@ body {
   color: var(--el-primary);
 }
 
+/* Disabled Cards - Professional styling */
+.dashboard-card.disabled-card {
+  opacity: 0.7;
+  cursor: not-allowed;
+  position: relative;
+  background: linear-gradient(135deg, #a3a3a3ff 0%, #e9ecef 100%);
+  border: 2px dashed #dee2e6;
+  transition: all 0.3s ease;
+}
+
+.dashboard-card.disabled-card:hover {
+  transform: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  opacity: 0.8;
+}
+
+.dashboard-card.disabled-card .card-icon {
+  opacity: 0.6;
+}
+
+.dashboard-card.disabled-card .card-main-text,
+.dashboard-card.disabled-card .card-sub-text {
+  color: #6c757d;
+}
+
+/* Maintenance Notice */
+.maintenance-notice {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
+  background: linear-gradient(135deg, #ffc107 0%, #ff8f00 100%);
+  color: #212529;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(255, 193, 7, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.maintenance-notice i {
+  margin-right: 6px;
+  animation: wrench-rotate 2s ease-in-out infinite;
+}
+
+@keyframes wrench-rotate {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-15deg); }
+  75% { transform: rotate(15deg); }
+}
+
+/* Backup cards disabled state */
+.backup-card.disabled-card {
+  background: linear-gradient(135deg, #f1f3f4 0%, #e8eaed 100%);
+  border: 2px dashed #dadce0;
+}
+
+.backup-card.disabled-card .backup-badge {
+  background: #9aa0a6;
+  color: white;
+}
+
 /* Loading Overlay */
 .loading-overlay {
   position: fixed;
